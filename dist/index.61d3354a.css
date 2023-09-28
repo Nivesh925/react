@@ -1,0 +1,87 @@
+.header {
+  border: 2px solid #000;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-items > ul {
+  gap: 1rem;
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items {
+  margin: 10px;
+  padding: 20px;
+}
+
+.res-card {
+  width: 14.4%;
+  height: auto;
+  border: 15px solid #958383;
+  align-content: flex-end;
+  padding: 10px;
+}
+
+.res-card :hover {
+  cursor: pointer;
+  border: 3px solid #000;
+}
+
+.search {
+  padding: 20px;
+}
+
+.res-logo {
+  height: 150px;
+  width: 100%;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.filter-btn {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+.shimmer-card {
+  width: 175px;
+  height: 350px;
+  background-color: gray;
+  margin: 10px;
+}
+
+.shimmer {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.Login {
+  cursor: pointer;
+  padding: 15px;
+}
+
+.filter, .itemCards {
+  display: flex;
+}
+
+.user-card {
+  border: 1px #000;
+  padding: 10px;
+}
+
+.Userclass :hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */

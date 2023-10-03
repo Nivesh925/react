@@ -17,10 +17,12 @@
     "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
-    "process": "^0.11.10"
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
   },
   "browserslist": [
     "last 2 chrome version"
   ],
-  "proxy":"https://github.com/Nivesh925"
+  "proxy": "https://github.com/Nivesh925"
 }

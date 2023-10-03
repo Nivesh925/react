@@ -2,6 +2,7 @@ import { LOGO_URL } from "../utils/contants";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import "../index.css" 
 
 const Header=()=>{
     
@@ -14,9 +15,9 @@ const Header=()=>{
     },[btnNameReact])//if the dependency array is empty=>useEffect is called only on initial render and just once
     //if dependency array is=>[btnNameReact] =>called everytime btnNameReact is updated
     return(
-        <div className="header">
+        <div className="flex">
             <div className="logo-container">
-                <img className="logo" src={LOGO_URL}/>
+                <img className="w-50" src={LOGO_URL}/>
 
             </div>
             <div className="nav-items">
